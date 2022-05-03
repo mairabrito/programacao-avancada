@@ -1,0 +1,3 @@
+Questão 07
+
+A unica expressão valida é o p=mat+1; pois as restante apresenta um erro no operador ++

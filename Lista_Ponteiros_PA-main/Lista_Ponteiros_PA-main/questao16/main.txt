@@ -1,0 +1,23 @@
+Questão 16
+
+/* Função clock() e a macro CLOCKS_PER_SEC
+A função clock retorna o tempo de execução exato do momento em que ela foi chamada. 
+Para encontrar o tempo de execução de um programa precisamos usar ela duas vezes, 
+uma para capturar o tempo inicial e outra para capturar o tempo final da execução. */
+
+/*
+	clock_t t; //variável para armazenar tempo
+   	t = clock(); //armazena tempo
+	crescente(x);
+
+    	t = clock() - t; //tempo final - tempo inicial
+    	//imprime o tempo em segundos na tela
+    	printf("Tempo de execucao: %lf", ((double)t)/((CLOCKS_PER_SEC))); //conversão para double
+*/
+
+Tempo de execução do programa da questao 13: 3,7s 
+Tempo de execução do programa da questao 14: 3,9s 
+Tempo de execução do programa da questao 15: 3,5s
+
+O tempo de execução das questoes anterios não tem uma diferença significativa.
+
